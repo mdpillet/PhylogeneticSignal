@@ -47,3 +47,10 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+Manuscript/
+Data/DensityRasters/
+*Breslin*
+*Guerrero*
+*Majure*
+PCA.rda
