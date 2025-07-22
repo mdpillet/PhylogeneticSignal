@@ -7,12 +7,12 @@ library(ggpubr)
 library(HDtweedie)
 
 # Set path
-treePath <- "E:/Research/PhylogeneticSignal/Data/Trees/Processed/ThompsonFinalNotGrafted.tre"
-figPath <- "E:/Research/PhylogeneticSignal/Figures/"
-modelPath <- "E:/Research/PhylogeneticSignal/Data/ModelFits/modelFits.csv"
+treePath <- "E:/Research/PhylogeneticConservatism/Data/Trees/Processed/ThompsonFinalNotGrafted.tre"
+figPath <- "E:/Research/PhylogeneticConservatism/Figures/"
+modelPath <- "E:/Research/PhylogeneticConservatism/Data/ModelFits/modelFits.csv"
 
 # Read in data
-covariates <- read.csv("E:/Research/PhylogeneticSignal/Data/Covariates/finalData.csv", header = T)
+covariates <- read.csv("E:/Research/PhylogeneticConservatism/Data/Covariates/finalData.csv", header = T)
 
 # Transform names
 covariates[, "species"] <- gsub(" ", "_", covariates$species)
